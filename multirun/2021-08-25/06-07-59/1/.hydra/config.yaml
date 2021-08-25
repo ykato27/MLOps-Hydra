@@ -1,0 +1,4 @@
+params:
+  model:
+    learning_rate: 0.05
+    depth: 10

@@ -40,8 +40,8 @@ RUN /usr/local/bin/python-build -v $PYTHON_VERSION $PYTHON_ROOT
 RUN rm -rf $PYENV_ROOT
 
 RUN pip install --upgrade pip
-
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
+RUN pip install hydra-core --upgrade
 
 WORKDIR home/work
