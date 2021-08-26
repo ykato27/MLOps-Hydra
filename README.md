@@ -1,6 +1,6 @@
-# python-template-repository
+# MLOps-Hydra
 
-本リポジトリはPython 環境のテンプレートリポジトリです。
+本リポジトリはMLOps-Hydra example リポジトリです。
 
 ## リポジトリ構成
 
