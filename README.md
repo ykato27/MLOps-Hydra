@@ -33,13 +33,13 @@
 
 ## 環境構築
 
-- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/python-template-repository）
+- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/MLOps-Hydra）
 
 ```
-cd Desktop/python-template-repository
+cd Desktop/MLOps-Hydra
 ```
 
-- Dockerによる環境構築（フォルダをマウント：Desktop/python-template-repository）
+- Dockerによる環境構築（フォルダをマウント：Desktop/MLOps-Hydra）
 
 ```
 docker-compose up --build
